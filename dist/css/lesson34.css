@@ -1,0 +1,15 @@
+a[href*="http"] {
+    color: #f70
+}
+
+a[href*="google"] {
+    color: #666
+}
+
+a[target]:after {
+    content: "\21f2";
+    position: absolute;
+    -webkit-transform: rotate(-90deg);
+    padding: 0px 6px 0px 4px;
+
+}
