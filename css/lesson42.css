@@ -5,11 +5,11 @@ div {
 }
 
 /*.full{ border-top: 4px solid #eaefe5;*/
-    /*border-bottom: 4px solid #eaefe5;*/
+/*border-bottom: 4px solid #eaefe5;*/
 
 .menu {
     width: 900px;
-    height: 50px;
+    height: 40px;
     margin: auto;
 
 
@@ -17,9 +17,9 @@ div {
 
 span {
     font-family: Economica, sans-serif;
-    font-size: 160%;
+    font-size: 120%;
     font-weight: bolder;
-    height: 40px;
+    height: 30px;
     display: inline-block;
     padding: 10px 20px 0 20px;
     color: white;
@@ -32,3 +32,5 @@ span:hover {
     border-top: 3px solid #e3e3e3;
     border-bottom: 3px solid #e3e3e3;
 }
+
+.more{float: right}
