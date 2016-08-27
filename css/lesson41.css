@@ -1,0 +1,30 @@
+.full {
+    background: #a74eff;
+    margin-top: 20px;
+    border-top: 4px solid #eaefe5;
+    border-bottom: 4px solid #eaefe5;
+}
+
+.menu {
+    width: 900px;
+    height: 50px;
+    margin: auto;
+}
+
+span {
+    font-family: Economica;
+    font-size: 160%;
+    font-weight: bolder;
+    height: 40px;
+    display: inline-block;
+    padding: 10px 20px 0 20px;
+    color: white;
+}
+
+span:hover {
+    color: #9f9f9f;
+    background: #eaefe5;
+    margin: -4px 0;
+    border-top: 3px solid #e3e3e3;
+    border-bottom: 3px solid #e3e3e3;
+}
