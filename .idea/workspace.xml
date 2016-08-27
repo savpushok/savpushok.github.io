@@ -57,11 +57,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="lesson41.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="lesson41.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/lesson41.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="184">
                   <caret line="19" column="17" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="142">
+                  <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
                   <folding />
                 </state>
               </provider>
@@ -103,11 +113,11 @@
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/css/lesson36.css" />
         <option value="$PROJECT_DIR$/task6.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/task41.html" />
         <option value="$PROJECT_DIR$/task42.html" />
         <option value="$PROJECT_DIR$/css/lesson42.css" />
         <option value="$PROJECT_DIR$/css/lesson41.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -312,12 +322,12 @@
       <workItem from="1471848543087" duration="19192000" />
       <workItem from="1471884137708" duration="8415000" />
       <workItem from="1472026893800" duration="33007000" />
-      <workItem from="1472284937567" duration="15821000" />
+      <workItem from="1472284937567" duration="15919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76435000" />
+    <option name="totallyTimeSpent" value="76533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -409,14 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task41.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
@@ -445,6 +447,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
           <folding />
         </state>
       </provider>
