@@ -1,0 +1,47 @@
+div {
+    background: #f6f6f6;
+    width: 650px;
+    padding: 10px;
+}
+
+span {
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    color: #dd21ff;
+    height: 15px;
+    padding: 0 10px;
+    margin: 2px;
+    text-align: center;
+}
+
+.border {
+    border: 2px solid #e3e3e3;
+    border-radius: 6px;
+    width: 15px;
+    padding: 8px;
+}
+
+.border:hover {
+    color: white;
+    background: #dd21ff;
+    border-color: #c221e4;
+}
+
+.dot {
+    vertical-align: bottom
+}
+
+.arrowleft, .arrowright {
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+.arrowleft {
+    margin-right: -22px
+}
+
+.arrowright {
+    margin-left: -22px
+}

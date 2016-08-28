@@ -15,7 +15,7 @@ h1 {
     text-align: right;
 }
 
-.students-table, ul > li, thead {
+ul > li, thead {
     font-weight: bold;
 }
 
