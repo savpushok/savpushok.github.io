@@ -23,7 +23,7 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="task41.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="task41.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/task41.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
@@ -43,6 +43,16 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="task6.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/task6.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="116">
+                  <caret line="28" column="14" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -57,11 +67,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="lesson42.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="lesson42.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/lesson42.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="34">
                   <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="lesson36.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/lesson36.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-325">
+                  <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
@@ -101,8 +121,6 @@
         <option value="$PROJECT_DIR$/dist/css/lesson36.css" />
         <option value="$PROJECT_DIR$/dist/task22.html" />
         <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/css/lesson36.css" />
-        <option value="$PROJECT_DIR$/task6.html" />
         <option value="$PROJECT_DIR$/task42.html" />
         <option value="$PROJECT_DIR$/css/stylelesson3.css" />
         <option value="$PROJECT_DIR$/css/lesson43.css" />
@@ -111,6 +129,8 @@
         <option value="$PROJECT_DIR$/task41.html" />
         <option value="$PROJECT_DIR$/css/lesson41.css" />
         <option value="$PROJECT_DIR$/css/lesson42.css" />
+        <option value="$PROJECT_DIR$/task6.html" />
+        <option value="$PROJECT_DIR$/css/lesson36.css" />
       </list>
     </option>
   </component>
@@ -173,6 +193,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="savpushok.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="savpushok.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="savpushok.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="savpushok.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="savpushok.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,12 +367,12 @@
       <workItem from="1471848543087" duration="19192000" />
       <workItem from="1471884137708" duration="8415000" />
       <workItem from="1472026893800" duration="33007000" />
-      <workItem from="1472284937567" duration="32379000" />
+      <workItem from="1472284937567" duration="35443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92993000" />
+    <option name="totallyTimeSpent" value="96057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -396,14 +448,6 @@
     <entry file="file://$PROJECT_DIR$/dist/task31.html" />
     <entry file="file://$PROJECT_DIR$/dist/task32.html" />
     <entry file="file://$PROJECT_DIR$/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/task6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task42.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -452,14 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/lesson36.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task32.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -492,6 +528,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/lesson42.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/lesson41.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -500,10 +544,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/lesson42.css">
+    <entry file="file://$PROJECT_DIR$/task6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="116">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/lesson36.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
           <folding />
         </state>
       </provider>
