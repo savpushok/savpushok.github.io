@@ -1,5 +1,6 @@
 body {
-    margin: 0
+    margin: 0;
+    min-width: 900px;
 }
 
 div {
@@ -9,12 +10,14 @@ div {
 .full {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
+    width: 100%;
 }
 
 .menu {
     width: 900px;
     height: 50px;
     margin: auto;
+    text-align: center;
 }
 
 span {
@@ -25,6 +28,7 @@ span {
     display: inline-block;
     padding: 10px 20px 0 20px;
     color: white;
+
 }
 
 span:hover {

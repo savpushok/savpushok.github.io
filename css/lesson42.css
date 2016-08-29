@@ -1,5 +1,6 @@
 body {
-    margin: 0
+    margin: 0;
+    min-width: 900px;
 }
 
 div {
@@ -15,6 +16,7 @@ div {
     width: 900px;
     height: 40px;
     margin: auto;
+    text-align: center;
 }
 
 span {
@@ -25,6 +27,7 @@ span {
     display: inline-block;
     padding: 10px 20px 0 20px;
     color: white;
+
 }
 
 span:hover {
