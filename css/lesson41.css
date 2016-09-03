@@ -35,7 +35,8 @@ span:hover {
     color: #9f9f9f;
     background: #eaefe5;
     margin: -4px 0;
-    border-top: 3px solid #e3e3e3;
-    border-bottom: 3px solid #e3e3e3;
+    /*border-top: 3px solid #e3e3e3;*/
+    /*border-bottom: 3px solid #e3e3e3;*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
