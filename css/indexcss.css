@@ -1,0 +1,14 @@
+.les {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+li {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+ul {
+    padding: 0;
+}

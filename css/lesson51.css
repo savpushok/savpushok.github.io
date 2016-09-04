@@ -9,10 +9,12 @@ body {
     margin-top: 20px;
     background: #2a92ff;
     text-align: center;
-    width: 100%;
+
 }
 
 .submenu {
+    font-family: Economica, sans-serif;
+    font-size: 120%;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -25,8 +27,6 @@ body {
 }
 
 span {
-    font-family: Economica, sans-serif;
-    font-size: 120%;
     font-weight: bolder;
     height: 30px;
     display: inline-block;
@@ -34,7 +34,9 @@ span {
 }
 
 .menu > span {
-   color: white;
+    font-family: Economica, sans-serif;
+    font-size: 120%;
+    color: white;
 
 }
 
