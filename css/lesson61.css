@@ -1,0 +1,146 @@
+body {
+    font-family: "Trebuchet MS";
+    text-align: center;
+    min-width: 1000px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #37495A;
+    font-size: 30px;
+    margin-bottom: 50px
+}
+
+.container>div {
+    display: inline-block;
+    position: relative;
+    width: 290px;
+}
+
+.maincontainer {
+    border: 4px solid #ee8129;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.maincontainer > div.contentblock {
+    border: none;
+    padding-bottom: 30px;
+    border-radius: 0;
+}
+
+.maincontainer > div .hat {
+    height: 72px;
+    line-height: 72px;
+    background: #ee8129;
+    border-radius: 0;
+}
+
+.leftcontainer > div .hat {
+    background-color: #37c2d3;
+}
+
+.rightcontainer > div .hat {
+    background-color: #1cb79a;
+}
+
+.leftcontainer {
+    margin-right: -8px;
+}
+
+.rightcontainer {
+    margin-left: -8px;
+}
+
+.hat {
+    height: 62px;
+    line-height: 62px;
+    border-radius: 5px 5px 0 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.contentblock {
+    background: white;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+
+.product {
+    height: 58px;
+    line-height: 58px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #37495a;
+}
+
+.fullprice {}
+
+.fullprice>div {
+    display: inline-block;
+    color: #37495a;
+    position: relative;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 70px;
+}
+
+.period {
+    font-size: 18px;
+    bottom: -0.5em;
+    left: -6px;
+}
+
+.currecy {
+    font-size: 20px;
+    top: -2em;
+    right: -5px;
+}
+
+ul {
+    color: #868686;
+    list-style-type: none;
+    margin: 24px 15px 20px 15px;
+    padding-left: 0;
+    text-align: left;
+    font-weight: normal;
+}
+
+li {
+    margin: 1px;
+    padding: 6px 0px 6px 35px;
+    background: #edf6fd;
+}
+
+li:before {
+    content: url(check.png);
+}
+
+li:nth-child(even) {
+    background: #f5f5f8;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.leftcontainer button,
+.rightcontainer button {
+    background-color: #3371a6;
+    border-bottom: 3px solid #37495A;
+}
+
+.maincontainer button {
+    background-color: #EE8129;
+    border-bottom: 3px solid #B1561B;
+}
