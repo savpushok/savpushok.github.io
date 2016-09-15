@@ -1,0 +1,99 @@
+html {
+    font-family: 'Trebuchet MS';
+    min-width: 500px;
+}
+
+body {
+    margin: 0
+}
+
+h2 {
+    color: #3170a8;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0
+}
+
+h2 span {
+    color: #ee8129;
+}
+
+.container {
+    background: url(images/Layer-66-copy-2.png) repeat-y;
+}
+
+.containercolor {
+    background-color: rgba(6, 15, 22, 0.9);
+}
+
+.otz {
+    background: #f7f7f7;
+    width: 340px;
+    font-size: 13px;
+}
+
+.otz > div {
+    padding: 11px 15px;
+}
+
+.otz .otztext {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.avatar {
+    width: 99px;
+    height: 98px;
+    vertical-align: top;
+}
+
+.row {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.row div {
+    display: inline-block;
+}
+
+.left,
+.right {
+    width: 460px;
+    text-align: left;
+    display: inline-block;
+    margin: 0px 20px;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+
+.otztext {
+    font-style: normal;
+    color: #666666;
+    line-height: 1.5;
+    border-top: #a5a5a5 2px dotted;
+    margin: 0 15px;
+    text-align: left;
+}
+
+.otzheader {
+    color: #3070a8;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.name {
+    float: left;
+}
+
+.name:before {
+    content: "- ";
+    font-weight: normal;
+}
+
+.role {
+    float: right;
+}
