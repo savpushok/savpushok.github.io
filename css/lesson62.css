@@ -24,6 +24,7 @@ h2 span {
 
 .container {
     background: url(images/Layer-66-copy-2.png) repeat;
+    
 }
 
 .containercolor {
@@ -103,6 +104,7 @@ h2 span {
 
 .name {
     float: left;
+    width: 50%
 }
 
 .name:before {
