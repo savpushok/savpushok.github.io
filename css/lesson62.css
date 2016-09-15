@@ -23,7 +23,7 @@ h2 span {
 }
 
 .container {
-    background: url(images/Layer-66-copy-2.png) repeat-y;
+    background: url(images/Layer-66-copy-2.png) repeat;
 }
 
 .containercolor {
@@ -34,6 +34,9 @@ h2 span {
     background: #f7f7f7;
     width: 340px;
     font-size: 13px;
+    margin-left: 20px;
+    position: relative
+   
 }
 
 .otz > div {
@@ -45,10 +48,22 @@ h2 span {
     padding-right: 0;
 }
 
+.otz::before {
+    content: url(images/arrow.png);
+    position: absolute;
+    display: block;
+    left: -13px;
+    top: 35px;
+   
+ 
+    
+}
+
 .avatar {
     width: 99px;
     height: 98px;
     vertical-align: top;
+    
 }
 
 .row {
@@ -62,12 +77,13 @@ h2 span {
 
 .left,
 .right {
-    width: 460px;
+    width: 470px;
     text-align: left;
     display: inline-block;
     margin: 0px 20px;
     margin-bottom: 10px;
     vertical-align: top;
+    
 }
 
 .otztext {
