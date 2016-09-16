@@ -1,6 +1,7 @@
+
 html {
     font-family: 'Trebuchet MS';
-    min-width: 500px;
+    min-width:600px;
 }
 
 body {
@@ -11,19 +12,22 @@ h2 {
     color: #3170a8;
     text-transform: uppercase;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5em; 
     font-weight: 400;
     display: inline-block;
     width: 100%;
-    padding: 10px 0
+    padding: 0.25em 0;
 }
 
 h2 span {
     color: #ee8129;
 }
 
+
 .container {
     background: url(images/Layer-66-copy-2.png) repeat;
+   
+    
     
 }
 
@@ -31,12 +35,33 @@ h2 span {
     background-color: rgba(6, 15, 22, 0.9);
 }
 
+.row {
+    text-align: center;
+    padding-bottom: 3.75em;
+}
+
+.row div {
+    display: inline-block;
+}
+
+.left,
+.right {
+    text-align: left;
+    display: inline-block;
+    margin: 0px 20px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    
+}
+
+
 .otz {
     background: #f7f7f7;
     width: 340px;
     font-size: 13px;
     margin-left: 20px;
-    position: relative
+    position: relative;
+    max-width: 340px
    
 }
 
@@ -67,25 +92,7 @@ h2 span {
     
 }
 
-.row {
-    text-align: center;
-    padding-bottom: 60px;
-}
 
-.row div {
-    display: inline-block;
-}
-
-.left,
-.right {
-    width: 470px;
-    text-align: left;
-    display: inline-block;
-    margin: 0px 20px;
-    margin-bottom: 10px;
-    vertical-align: top;
-    
-}
 
 .otztext {
     font-style: normal;
@@ -115,3 +122,4 @@ h2 span {
 .role {
     float: right;
 }
+*/
