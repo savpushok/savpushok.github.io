@@ -1,7 +1,6 @@
-
 html {
     font-family: 'Trebuchet MS';
-    min-width:600px;
+    min-width: 300px;
 }
 
 body {
@@ -12,7 +11,7 @@ h2 {
     color: #3170a8;
     text-transform: uppercase;
     text-align: center;
-    font-size: 2.5em; 
+    font-size: 2.5em;
     font-weight: 400;
     display: inline-block;
     width: 100%;
@@ -23,12 +22,8 @@ h2 span {
     color: #ee8129;
 }
 
-
 .container {
     background: url(images/Layer-66-copy-2.png) repeat;
-   
-    
-    
 }
 
 .containercolor {
@@ -48,21 +43,29 @@ h2 span {
 .right {
     text-align: left;
     display: inline-block;
-    margin: 0px 20px;
-    margin-bottom: 10px;
+    margin: 0 20px 10px 20px;
     vertical-align: top;
-    
 }
-
 
 .otz {
     background: #f7f7f7;
-    width: 340px;
-    font-size: 13px;
+    font-size: 0.8175em;
     margin-left: 20px;
     position: relative;
-    max-width: 340px
-   
+    max-width: 340px;
+}
+
+@media (max-width: 550px) {
+    .otz {
+        max-width: 50%;
+    }
+    .left,
+    .right {
+        text-align: center;
+    }
+    .row {
+        padding-bottom: 0;
+    }
 }
 
 .otz > div {
@@ -80,19 +83,13 @@ h2 span {
     display: block;
     left: -13px;
     top: 35px;
-   
- 
-    
 }
 
 .avatar {
     width: 99px;
     height: 98px;
     vertical-align: top;
-    
 }
-
-
 
 .otztext {
     font-style: normal;
@@ -111,7 +108,6 @@ h2 span {
 
 .name {
     float: left;
-    width: 50%
 }
 
 .name:before {
@@ -122,4 +118,4 @@ h2 span {
 .role {
     float: right;
 }
-*/
+
