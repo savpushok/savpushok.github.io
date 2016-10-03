@@ -1,0 +1,437 @@
+@font-face {
+    font-family: FuturaBT;
+    src: url('futurabt.otf');
+}
+
+@font-face {
+    font-family: FuturaBTBold;
+    src: url('futurabtbold.otf');
+}
+
+html {}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "FuturaBT";
+}
+
+#nav {
+    height: 115px;
+}
+
+#companyname {
+    font-size: 36px;
+    color: #ee8129;
+    width: 30%;
+    float: left;
+    line-height: 115px;
+}
+
+#companyname span {
+    text-transform: uppercase;
+    color: #3070a8;
+    font-weight: bold;
+    font-family: "FuturaBTBold";
+}
+
+#mainmenu ul {
+    list-style: none;
+    padding-top: 45px;
+}
+
+#mainmenu {
+    margin-left: 30%;
+    text-align: right;
+}
+
+#mainmenu ul li {
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+#mainmenu ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #989898;
+    font-weight: bold;
+}
+
+#mainmenu ul li:hover {
+    border-bottom: 5px solid #3070a8
+}
+
+#mainmenu ul li a:hover {
+    color: #3070a8;
+}
+
+#aboute {
+    background: url(Rectangle.png) #3170a8 center no-repeat;
+    width: 100%;
+    height: 585px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    min-width: 1024px;
+}
+
+.container_1024 {
+    width: 1024px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#aboute_container {
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    padding-top: 155px;
+}
+
+#aboute1 {
+    font-size: 36px;
+}
+
+#aboute2 {
+    font-size: 48px;
+    font-family: "FuturaBTBold";
+    text-transform: uppercase;
+    /*border: 2px solid white;*/
+}
+
+#aboute3 {
+    font: italic 20px / 30px Calibri;
+    width: 575px;
+    margin: auto;
+    margin-top: 20px;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.26);
+}
+
+#aboute_button {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    padding: 22px 64px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+#aboute_button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #40525c;
+    padding: 20px 0;
+    font-size: 30px
+}
+
+#advantage1,
+#advantage2,
+#advantage3 {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.advantage {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #999999;
+    margin: 0 20px;
+}
+
+.imgtitle {
+    font-size: 30.06px;
+    font-weight: 300;
+    color: #3070a8;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+
+/*color: #3170a8;*/
+
+
+/*text-transform: uppercase;*/
+
+
+/*text-align: center;*/
+
+
+/*font-size: 2.5em;*/
+
+
+/*font-weight: 400;*/
+
+
+/*display: inline-block;*/
+
+
+/*width: 100%;*/
+
+
+/*padding: 0.25em 0;*/
+
+
+/*}*/
+
+
+/*h2 span {*/
+
+
+/*color: #ee8129;*/
+
+
+/*}*/
+
+
+/*.container {*/
+
+
+/*background: url(images/Layer-66-copy-2.png) repeat;*/
+
+
+/*}*/
+
+
+/*.containercolor {*/
+
+
+/*background-color: rgba(6, 15, 22, 0.9);*/
+
+
+/*}*/
+
+
+/*.row {*/
+
+
+/*text-align: center;*/
+
+
+/*padding-bottom: 3.75em;*/
+
+
+/*}*/
+
+
+/*.row div {*/
+
+
+/*display: inline-block;*/
+
+
+/*}*/
+
+
+/*.left,*/
+
+
+/*.right {*/
+
+
+/*text-align: left;*/
+
+
+/*display: inline-block;*/
+
+
+/*margin: 0 20px 10px 20px;*/
+
+
+/*vertical-align: top;*/
+
+
+/*}*/
+
+
+/*.otz {*/
+
+
+/*background: #f7f7f7;*/
+
+
+/*font-size: 0.8175em;*/
+
+
+/*margin-left: 20px;*/
+
+
+/*position: relative;*/
+
+
+/*max-width: 340px;*/
+
+
+/*}*/
+
+
+/*@media (max-width: 550px) {*/
+
+
+/*.otz {*/
+
+
+/*max-width: 50%;*/
+
+
+/*}*/
+
+
+/*.left,*/
+
+
+/*.right {*/
+
+
+/*text-align: center;*/
+
+
+/*}*/
+
+
+/*.row {*/
+
+
+/*padding-bottom: 0;*/
+
+
+/*}*/
+
+
+/*}*/
+
+
+/*.otz > div {*/
+
+
+/*padding: 11px 15px;*/
+
+
+/*}*/
+
+
+/*.otz .otztext {*/
+
+
+/*padding-left: 0;*/
+
+
+/*padding-right: 0;*/
+
+
+/*}*/
+
+
+/*.otz::before {*/
+
+
+/*content: url(images/arrow.png);*/
+
+
+/*position: absolute;*/
+
+
+/*display: block;*/
+
+
+/*left: -13px;*/
+
+
+/*top: 35px;*/
+
+
+/*}*/
+
+
+/*.avatar {*/
+
+
+/*width: 99px;*/
+
+
+/*height: 98px;*/
+
+
+/*vertical-align: top;*/
+
+
+/*}*/
+
+
+/*.otztext {*/
+
+
+/*font-style: normal;*/
+
+
+/*color: #666666;*/
+
+
+/*line-height: 1.5;*/
+
+
+/*border-top: #a5a5a5 2px dotted;*/
+
+
+/*margin: 0 15px;*/
+
+
+/*text-align: left;*/
+
+
+/*}*/
+
+
+/*.otzheader {*/
+
+
+/*color: #3070a8;*/
+
+
+/*font-weight: bold;*/
+
+
+/*font-style: italic;*/
+
+
+/*}*/
+
+
+/*.name {*/
+
+
+/*float: left;*/
+
+
+/*}*/
+
+
+/*.name:before {*/
+
+
+/*content: "- ";*/
+
+
+/*font-weight: normal;*/
+
+
+/*}*/
+
+
+/*.role {*/
+
+
+/*float: right;*/
+
+
+/*}*/
