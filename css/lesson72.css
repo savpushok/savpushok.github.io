@@ -16,13 +16,21 @@ body {
     font-family: "FuturaBT";
 }
 
-#nav {
+section{ position: relative;
+    top: 115px;}
+
+nav {
     height: 115px;
+    position: fixed;
+    background-color: white;
+    z-index: 200;
+    width: 100%;
+    opacity: 0.95;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #companyname {
     font-size: 36px;
-    color: #ee8129;
     width: 30%;
     float: left;
     line-height: 115px;
@@ -30,7 +38,6 @@ body {
 
 #companyname span {
     text-transform: uppercase;
-    color: #3070a8;
     font-weight: bold;
     font-family: "FuturaBTBold";
 }
@@ -43,6 +50,7 @@ body {
 #mainmenu {
     margin-left: 30%;
     text-align: right;
+    
 }
 
 #mainmenu ul li {
@@ -76,6 +84,7 @@ body {
     margin: auto;
     color: white;
     min-width: 1024px;
+   
 }
 
 .container_1024 {
@@ -130,12 +139,11 @@ h2 {
     text-transform: uppercase;
     color: #40525c;
     padding: 20px 0;
-    font-size: 30px
+    font-size: 30px;
 }
 
-#advantage1,
-#advantage2,
-#advantage3 {
+
+#services>div {
     width: 33%;
     display: inline-block;
     vertical-align: top;
@@ -150,288 +158,297 @@ h2 {
 }
 
 .imgtitle {
-    font-size: 30.06px;
+    font-size: 30px;
     font-weight: 300;
-    color: #3070a8;
     text-transform: uppercase;
     margin: 20px;
 }
 
-
-/*color: #3170a8;*/
-
-
-/*text-transform: uppercase;*/
-
-
-/*text-align: center;*/
-
-
-/*font-size: 2.5em;*/
-
-
-/*font-weight: 400;*/
-
-
-/*display: inline-block;*/
-
-
-/*width: 100%;*/
-
-
-/*padding: 0.25em 0;*/
-
-
-/*}*/
-
-
-/*h2 span {*/
-
-
-/*color: #ee8129;*/
-
-
-/*}*/
-
-
-/*.container {*/
-
-
-/*background: url(images/Layer-66-copy-2.png) repeat;*/
-
-
-/*}*/
-
-
-/*.containercolor {*/
-
-
-/*background-color: rgba(6, 15, 22, 0.9);*/
-
-
-/*}*/
-
-
-/*.row {*/
-
-
-/*text-align: center;*/
-
-
-/*padding-bottom: 3.75em;*/
-
-
-/*}*/
-
-
-/*.row div {*/
-
-
-/*display: inline-block;*/
-
-
-/*}*/
-
-
-/*.left,*/
-
-
-/*.right {*/
-
-
-/*text-align: left;*/
-
-
-/*display: inline-block;*/
-
-
-/*margin: 0 20px 10px 20px;*/
-
-
-/*vertical-align: top;*/
-
-
-/*}*/
-
-
-/*.otz {*/
-
-
-/*background: #f7f7f7;*/
-
-
-/*font-size: 0.8175em;*/
-
-
-/*margin-left: 20px;*/
-
-
-/*position: relative;*/
-
-
-/*max-width: 340px;*/
-
-
-/*}*/
-
-
-/*@media (max-width: 550px) {*/
-
-
-/*.otz {*/
-
-
-/*max-width: 50%;*/
-
-
-/*}*/
-
-
-/*.left,*/
-
-
-/*.right {*/
-
-
-/*text-align: center;*/
-
-
-/*}*/
-
-
-/*.row {*/
-
-
-/*padding-bottom: 0;*/
-
-
-/*}*/
-
-
-/*}*/
-
-
-/*.otz > div {*/
-
-
-/*padding: 11px 15px;*/
-
-
-/*}*/
-
-
-/*.otz .otztext {*/
-
-
-/*padding-left: 0;*/
-
-
-/*padding-right: 0;*/
-
-
-/*}*/
-
-
-/*.otz::before {*/
-
-
-/*content: url(images/arrow.png);*/
-
-
-/*position: absolute;*/
-
-
-/*display: block;*/
-
-
-/*left: -13px;*/
-
-
-/*top: 35px;*/
-
-
-/*}*/
-
-
-/*.avatar {*/
-
-
-/*width: 99px;*/
-
-
-/*height: 98px;*/
-
-
-/*vertical-align: top;*/
-
-
-/*}*/
-
-
-/*.otztext {*/
-
-
-/*font-style: normal;*/
-
-
-/*color: #666666;*/
-
-
-/*line-height: 1.5;*/
-
-
-/*border-top: #a5a5a5 2px dotted;*/
-
-
-/*margin: 0 15px;*/
-
-
-/*text-align: left;*/
-
-
-/*}*/
-
-
-/*.otzheader {*/
-
-
-/*color: #3070a8;*/
-
-
-/*font-weight: bold;*/
-
-
-/*font-style: italic;*/
-
-
-/*}*/
-
-
-/*.name {*/
-
-
-/*float: left;*/
-
-
-/*}*/
-
-
-/*.name:before {*/
-
-
-/*content: "- ";*/
-
-
-/*font-weight: normal;*/
-
-
-/*}*/
-
-
-/*.role {*/
-
-
-/*float: right;*/
-
-
-/*}*/
+#middle-section {
+    background: url(/images/Rectangle%2014%20copy.png) rgba(6, 15, 22, 0.77) center no-repeat;
+    width: 100%;
+    min-height: 578px;
+    text-align: left;
+    margin: auto;
+    color: white;
+    min-width: 1024px;
+    margin-top: 45px;
+}
+
+#middle_section_container {
+    text-align: left;
+    padding-top: 45px;
+}
+
+#middle_section_container div {
+    width: 680px;
+}
+
+.color_alt {
+    color: #ee8129;
+}
+
+h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+    line-height: 48px;
+}
+
+#middle_section_container p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+}
+
+#middle_section_container ul {
+    color: #9d9d9d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#middle_section_container ul li {
+    padding: 10px 0
+}
+
+.color_main {
+    color: #3070a8;
+}
+
+#pricing {
+    font-family: "Trebuchet MS";
+    
+}
+
+.pricing_container>div {
+    display: inline-block;
+    position: relative;
+    width: 290px;
+    margin-bottom: 10px;
+}
+
+.maincontainer {
+    border: 4px solid #ee8129;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.maincontainer > div.contentblock {
+    border: none;
+    padding-bottom: 30px;
+    border-radius: 0;
+}
+
+.maincontainer > div .hat {
+    height: 72px;
+    line-height: 72px;
+    background: #ee8129;
+    border-radius: 0;
+}
+
+.leftcontainer > div .hat {
+    background-color: #37c2d3;
+}
+
+.rightcontainer > div .hat {
+    background-color: #1cb79a;
+}
+
+.leftcontainer {
+    margin-right: -8px;
+}
+
+.rightcontainer {
+    margin-left: -8px;
+}
+
+.hat {
+    height: 62px;
+    line-height: 62px;
+    border-radius: 5px 5px 0 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.contentblock {
+    background: white;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+
+.product {
+    height: 58px;
+    line-height: 58px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #37495a;
+}
+
+.fullprice>div {
+    display: inline-block;
+    color: #37495a;
+    position: relative;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 70px;
+}
+
+.period {
+    font-size: 18px;
+    bottom: -0.5em;
+    left: -6px;
+}
+
+.currecy {
+    font-size: 20px;
+    top: -2em;
+    right: -5px;
+}
+
+.pricing_container ul {
+    color: #868686;
+    list-style-type: none;
+    margin: 24px 15px 20px 15px;
+    padding-left: 0;
+    text-align: left;
+    font-weight: normal;
+}
+
+.pricing_container li {
+    margin: 1px;
+    padding: 6px 0px 6px 35px;
+    background: #edf6fd;
+}
+
+.pricing_container li:before {
+    content: url(check.png);
+}
+
+.pricing_container li:nth-child(even) {
+    background: #f5f5f8;
+}
+
+.pricing_container button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.leftcontainer button,
+.rightcontainer button {
+    background-color: #3371a6;
+    border-bottom: 3px solid #37495A;
+}
+
+.maincontainer button {
+    background-color: #EE8129;
+    border-bottom: 3px solid #B1561B;
+}
+
+#otz {
+    margin-top: 45px;
+    min-width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    background:  url(/images/Rectangle%2035.png) rgba(6, 15, 22, 0.77) center repeat;
+}
+
+#otz h2 {
+    font-weight: bold;
+    font-family: "FuturaBTBold";
+    text-align: center;
+    font-size: 40px;
+    padding: 35px 0;
+}
+
+#otz h2 span {
+    font-family: "FuturaBT";
+    font-weight: normal;
+}
+
+
+#otz .row {
+    text-align: center;
+    padding-bottom: 3.75em;
+}
+
+#otz .row div {
+    display: inline-block;
+}
+
+#otz .left,
+#otz .right {
+    text-align: left;
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    vertical-align: top;
+}
+
+#otz .otz {
+    background: #f7f7f7;
+    font-size: 0.8175em;
+    margin-left: 20px;
+    position: relative;
+    max-width: 340px;
+}
+
+
+#otz .otz > div {
+    padding: 10px 15px;
+}
+
+#otz .otz .otztext {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#otz .otz::before {
+    content: url(images/arrow.png);
+    position: absolute;
+    display: block;
+    left: -13px;
+    top: 35px;
+}
+
+#otz .avatar {
+    width: 99px;
+    height: 99px;
+    vertical-align: top;
+}
+
+#otz .otztext {
+    font-style: normal;
+    color: #666666;
+    line-height: 1.5;
+    border-top: #a5a5a5 2px dotted;
+    margin: 0 15px;
+    text-align: left;
+}
+
+#otz .otzheader {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#otz .name {
+    float: left;
+}
+
+#otz .name::before {
+    content: "- ";
+    font-weight: normal;
+}
+
+#otz .role {
+    float: right;
+}
+#contacts {min-height: 345px;
+    background: url(images/Layer-101.png) right no-repeat;
+
+}
